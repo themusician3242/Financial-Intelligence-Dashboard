@@ -1,12 +1,19 @@
-The following page currently displays the static version of the financial intelligence dashboard.
+<h3><b>Financial Intelligence Dashboard</b></h3>
 
-In order for the dashboard to function properly, you must download it and run it on Live Port: 8080 using VSCode or any other IDE. 
+This repository contains a **static version** of the Financial Intelligence Dashboard.
 
-The financial inputs for the dashboard contain lots of dead numbers, primarily because the dashboard was built for my own personal use. 
+**To run the interactive dashboard:**
+- Download the project files.
+- Open the folder in VSCode (or any IDE).
+- Run using Live Server on Port 8080.
 
-If you'd like to customize it for your own usage, refer first to globals.js, and then update-financials.js and edit one or more of the following: 
-update-financials.js:
-- fixedCapital: This is the amount of money you currently have, not including any of the future income you're going to receive. For example, if you already have $1,900 saved in a chequing account, you can edit this number in to accurately reflect your account balance.
-globals.js
-- existingFHSA: Assuming you have a TFSA, FHSA, or any other compound interest savings account, you can edit your account's existing balance here.
-- existingRRSP: Assuming you may have a RRSP or 401k plan, you can edit your RRSP & 401ks existing balance here. 
+**Customization**
+
+The dashboard was originally designed for personal use, so many of the inputs are pre-filled with placeholder numbers. To tailor it to your own finances, update the following files and variables:
+
+**globals.js**
+- existingFHSA: Edit to reflect your TFSA, FHSA, or other savings account balances.
+- existingRRSP: Edit to reflect your RRSP or 401(k) balances.
+
+**update-financials.js**
+- fixedCapital: The amount of money you currently have available (e.g., $1,900 in your chequing account).
