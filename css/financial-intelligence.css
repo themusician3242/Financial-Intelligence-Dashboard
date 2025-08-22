@@ -127,6 +127,32 @@
 }
 
 /* Budget Pop-Up */
+
+#pull-financials-popup .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;              /* spacing between the logos */
+    width: 100%;            /* take full width for symmetry */
+    height: auto;
+    padding: 1rem 0;        /* breathing room */
+}
+
+.quick-access img {
+    width: 100%;           /* fixed, consistent logo size */
+    height: auto;
+}
+
+.quick-access {
+    width: 120px;  
+    height: 120px;
+    background: white; 
+    border-radius: 12px;    /* softer edges */      /* remove black border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    align-content: center;
+}
+
 /* 📌 Dark Mode Pop-Up Styling */
 #financial-intelligence .popup {
     display: none;
@@ -589,4 +615,5 @@ canvas {
     transform: scale(1.5);
     
 }
+
 
