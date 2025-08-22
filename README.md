@@ -9,7 +9,7 @@ This repository contains a **static version** of the Financial Intelligence Dash
 
 **Customization**
 
-The dashboard was originally designed for personal use, so many of the inputs are pre-filled with placeholder numbers. To tailor it to your own finances, update the following files and variables:
+The dashboard was originally designed for my personal use, so many of the inputs are pre-filled with placeholder numbers. To tailor it to your own finances, update the following files and variables:
 
 **globals.js**
 - existingFHSA: Edit to reflect your TFSA, FHSA, or other savings account balances.
